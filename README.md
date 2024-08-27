@@ -21,6 +21,17 @@ Magento é uma plataforma de e-commerce open-source, que oferece uma solução c
   - Interação com o Usuário: Manipulação de eventos de usuário, como cliques e submissões de formulários.
   - Validação de Formulários: Verificação dos dados inseridos pelo usuário antes de enviá-los ao servidor.
 
+### 2. Camada de Serviço (Backend) 
+- **Recursos:**
+  - **Controladores:** Classes que processam as requisições HTTP e retornam as respostas apropriadas.
+  - **Modelos:** Classes que representam os dados e a lógica de negócios da aplicação.
+  - **Helpers:** Classes utilitárias que fornecem funcionalidades auxiliares para outras partes do sistema.
+  - **Serviços:** Classes que encapsulam a lógica de negócios e podem ser reutilizadas em diferentes partes da aplicação.
+- **Processos:**
+  - Lógica de Negócios: Implementação das regras de negócio, como cálculos de preços e validação de pedidos.
+  - Manipulação de Dados: Criação, leitura, atualização e exclusão de dados no banco de dados.
+  - Comunicação com o Banco de Dados: Execução de consultas SQL e mapeamento de resultados para objetos PHP.
+
 ## Referências
 - **MARQUES, Abraão**. Magento 2 Architectural Layers. Publicado em 11 de março, 2021.
 
