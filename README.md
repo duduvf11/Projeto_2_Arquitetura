@@ -32,6 +32,17 @@ Magento é uma plataforma de e-commerce open-source, que oferece uma solução c
   - Manipulação de Dados: Criação, leitura, atualização e exclusão de dados no banco de dados.
   - Comunicação com o Banco de Dados: Execução de consultas SQL e mapeamento de resultados para objetos PHP.
 
+### 3. Camada de Persistência (Banco de Dados)
+- **Recursos:**
+  - **Tabelas:** Estruturas que armazenam os dados em formato tabular.
+  - Índices: Estruturas que melhoram a velocidade de consultas ao banco de dados.
+  - Stored Procedures: Conjuntos de instruções SQL armazenadas no banco de dados que podem ser executadas como uma única unidade.
+  
+  **Processos:**
+  - **Armazenamento e Recuperação de Dados:** Inserção, atualização, exclusão e consulta de dados nas tabelas.
+  - **Transações:** Execução de operações de banco de dados de forma atômica, garantindo a integridade dos dados.
+  - **Consultas SQL:** Execução de instruções SQL para manipulação e recuperação de dados.
+
 ## Referências
 - **MARQUES, Abraão**. Magento 2 Architectural Layers. Publicado em 11 de março, 2021.
 
