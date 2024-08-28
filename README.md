@@ -42,6 +42,19 @@ Magento é uma plataforma de e-commerce open-source, que oferece uma solução c
   - **Armazenamento e Recuperação de Dados:** Inserção, atualização, exclusão e consulta de dados nas tabelas.
   - **Transações:** Execução de operações de banco de dados de forma atômica, garantindo a integridade dos dados.
   - **Consultas SQL:** Execução de instruções SQL para manipulação e recuperação de dados.
+ 
+  ### 4. Camada de Integração - RODRIGAO
+- **Recursos:**
+  - **APIs:** Interfaces de programação que permitem a comunicação entre diferentes sistemas.
+  - **Webhooks:** Mecanismos que permitem que um sistema notifique outro sobre eventos em tempo real.
+  - **Serviços Externos:** Integrações com sistemas de terceiros, como gateways de pagamento e serviços de envio.
+- **Processos:**
+  - Integração com Sistemas de Terceiros: Comunicação com APIs externas para realizar operações como processamento de pagamentos e cálculo de frete.
+  - Comunicação via APIs REST e GraphQL: Utilização de APIs REST e GraphQL para expor funcionalidades do Magento a outros sistemas e consumir serviços externos.
+
+## Propostas de Melhoria
+
+
 
 ## Referências
 - **MARQUES, Abraão**. Magento 2 Architectural Layers. Publicado em 11 de março, 2021.
