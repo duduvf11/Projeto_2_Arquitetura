@@ -54,8 +54,37 @@ Magento é uma plataforma de e-commerce open-source, que oferece uma solução c
 
 ## Propostas de Melhoria
 
+### Estratégias de Escalabilidade
+
+**Objetivo:** Melhorar a capacidade do Magento 2 para lidar com grandes volumes de tráfego e garantir um desempenho consistente.
+
+#### 1. Escalabilidade Horizontal
+
+**Balanceamento de Carga:**
+- **Ferramentas:** Nginx, HAProxy
+- **Detalhamento:** Utilizar Nginx ou HAProxy para distribuir o tráfego entre múltiplos servidores web, evitando a sobrecarga de um único servidor. O balanceador de carga monitora a carga de cada servidor e redistribui o tráfego para otimizar o desempenho.
+
+**Cluster de Servidores:**
+- **Ferramentas:** Kubernetes, Docker Swarm
+- **Detalhamento:** Configurar um cluster de servidores web e banco de dados usando Kubernetes ou Docker Swarm. Essas ferramentas de orquestração de contêineres permitem escalar o ambiente rapidamente, garantindo alta disponibilidade e distribuição eficiente de carga.
+
+**Serviços de Cache:**
+- **Ferramentas:** Redis, Varnish
+- **Detalhamento:** Implementar Redis para cachear sessões e dados frequentemente acessados, reduzindo a carga no banco de dados. Varnish pode ser configurado como um cache reverso para armazenar páginas HTML geradas e serví-las diretamente aos usuários, melhorando a velocidade de carregamento das páginas.
+
+#### 2. Escalabilidade Vertical
+
+**Otimização do Banco de Dados:**
+- **Ferramentas:** MySQL, Percona Server
+- **Detalhamento:** Ajustar parâmetros de configuração do MySQL, como `innodb_buffer_pool_size` e `query_cache_size`, para otimizar o desempenho. Percona Server pode ser usado para fornecer uma versão otimizada do MySQL, com melhor gerenciamento de recursos.
+
+**Aprimoramento de Hardware:**
+- **Ferramentas:** Atualização de servidores, SSDs, memória RAM
+- **Detalhamento:** Aumentar a capacidade do hardware existente adicionando mais memória RAM, utilizando SSDs para armazenamento de banco de dados, e processadores mais rápidos. Isso melhora a capacidade de processamento e o desempenho geral do sistema.
 
 
 ## Referências
+- **ADOBE.** Adobe Commerce Developer Documentation. Disponível em: [https://developer.adobe.com/commerce/docs/](https://developer.adobe.com/commerce/docs/). Acesso em: 26 ago. 2024.
+- **ADOBE.** Platform Architecture. Disponível em: [https://business.adobe.com/products/magento/platform-architecture.html](https://business.adobe.com/products/magento/platform-architecture.html). Acesso em: 26 ago. 2024.
 - **MARQUES, Abraão**. Magento 2 Architectural Layers. Publicado em 11 de março, 2021.
 
