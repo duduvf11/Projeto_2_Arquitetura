@@ -43,7 +43,7 @@ Magento é uma plataforma de e-commerce open-source, que oferece uma solução c
   - **Transações:** Execução de operações de banco de dados de forma atômica, garantindo a integridade dos dados.
   - **Consultas SQL:** Execução de instruções SQL para manipulação e recuperação de dados.
  
-  ### 4. Camada de Integração - RODRIGAO
+  ### 4. Camada de Integração
 - **Recursos:**
   - **APIs:** Interfaces de programação que permitem a comunicação entre diferentes sistemas.
   - **Webhooks:** Mecanismos que permitem que um sistema notifique outro sobre eventos em tempo real.
