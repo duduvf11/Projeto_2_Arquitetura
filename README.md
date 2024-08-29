@@ -82,9 +82,33 @@ Magento é uma plataforma de e-commerce open-source, que oferece uma solução c
 - **Ferramentas:** Atualização de servidores, SSDs, memória RAM
 - **Detalhamento:** Aumentar a capacidade do hardware existente adicionando mais memória RAM, utilizando SSDs para armazenamento de banco de dados, e processadores mais rápidos. Isso melhora a capacidade de processamento e o desempenho geral do sistema.
 
+### Estratégias de Refatoração
+
+**Objetivo:** Melhorar a eficiência, a legibilidade e a manutenibilidade do código do Magento 2.
+
+#### 1. Modularização
+
+**Criação de Módulos Customizados:**
+- **Ferramentas:** Magento 2 Module Creator, Composer
+- **Detalhamento:** Modularizar o código dividindo-o em módulos menores e independentes, cada um responsável por uma funcionalidade específica. O Magento 2 Module Creator facilita a criação de novos módulos, enquanto Composer gerencia as dependências entre esses módulos.
+
+**Utilização de Dependências:**
+- **Ferramentas:** Composer, Dependency Injection (DI)
+- **Detalhamento:** Utilizar Composer para gerenciar bibliotecas e dependências de código, permitindo o compartilhamento controlado de recursos entre módulos. A injeção de dependências (DI) permite que as classes recebam suas dependências necessárias de maneira declarativa, promovendo flexibilidade e reduzindo o acoplamento entre componentes do sistema.
+
+#### 2. Otimização de Código
+
+**Revisão de Código:**
+- **Ferramentas:** Git, SonarQube
+- **Detalhamento:** Realizar revisões regulares de código utilizando Git para controle de versões e SonarQube para análise estática de código. Identificar problemas de performance e manutenibilidade, e adotar padrões de codificação consistentes.
+
+**Testes Automatizados:**
+- **Ferramentas:** PHPUnit, Selenium, Magento Functional Testing Framework (MFTF)
+- **Detalhamento:** Implementar testes unitários com PHPUnit para validar a funcionalidade de componentes individuais, e utilizar Selenium para testes de interface de usuário. O Magento Functional Testing Framework (MFTF) é recomendado para testes funcionais, garantindo que as interações entre módulos estejam funcionando corretamente após alterações no código.
 
 ## Referências
 - **ADOBE.** Adobe Commerce Developer Documentation. Disponível em: [https://developer.adobe.com/commerce/docs/](https://developer.adobe.com/commerce/docs/). Acesso em: 26 ago. 2024.
 - **ADOBE.** Platform Architecture. Disponível em: [https://business.adobe.com/products/magento/platform-architecture.html](https://business.adobe.com/products/magento/platform-architecture.html). Acesso em: 26 ago. 2024.
 - **MARQUES, Abraão**. Magento 2 Architectural Layers. Publicado em 11 de março, 2021.
+- **COMUNIDADE CLOUD.** Estratégias de Migração para a Nuvem. Disponível em: [https://comunidadecloud.com/estrategias-de-migracao-para-nuvem/](https://comunidadecloud.com/estrategias-de-migracao-para-nuvem/). Acesso em: 26 ago. 2024.
 
